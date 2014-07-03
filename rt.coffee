@@ -1,5 +1,5 @@
 # Description:
-#   RT integration with hubot
+# RT integration with hubot
 #
 # Dependancies:
 # None
