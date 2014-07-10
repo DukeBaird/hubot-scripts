@@ -8,7 +8,8 @@
 # 	None
 #
 # Commands:
-#   hubot RT <ticket number> - Sends request to PHP script to return ticket details
+# RT <ticket number> - Sends request to PHP script to return ticket details
+# rt <ticket number> - Sends request to PHP script to return ticket details
 #
 # Notes:
 # 	For Storm Internet Services
@@ -19,7 +20,7 @@
 # 	Benjamin.d.craig@gmail.com
 
 module.exports = (robot) ->
-	robot.hear /rt #*(\d+)/i, (msg) ->
+	robot.hear /\brt #*(\d+)/i, (msg) ->
 		room = msg.message.room
 		ticket = msg.match[1]
 
