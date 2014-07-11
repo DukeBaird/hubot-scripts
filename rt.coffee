@@ -20,7 +20,7 @@
 # 	Benjamin.d.craig@gmail.com
 
 module.exports = (robot) ->
-	robot.hear /\brt #*(\d+)/i, (msg) ->
+	robot.hear /\brt #*(\d+)|^rt #*(\d+)/i, (msg) ->
 		room = msg.message.room
 		ticket = msg.match[1]
 
