@@ -11,7 +11,7 @@
 # 
 #
 # Notes:
-# 	Copied idea from StackOverdlow JavaScript chatroom bot
+# 	Copied idea from StackOverflow JavaScript chatroom bot
 #
 # Author:
 # 	Ben Craig
